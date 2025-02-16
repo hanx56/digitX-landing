@@ -1,0 +1,37 @@
+@use 'helpers' as *;
+
+:root {
+  --color-dark-absolute: #000000;
+  --color-light-absolute: #FFFFFF;
+
+  --color-light-50: #808080;
+  --color-light-55: #8C8C8C;
+  --color-light-60: #999999;
+  --color-light-65: #A6A6A6;
+  --color-light-70: #B3B3B3;
+  --color-light-75: #BFBFBF;
+  --color-light-80: #CCCCCC;
+  --color-light-90: #E6E6E6;
+
+  --color-gray-06: #0F0F0F;
+  --color-gray-10: #1A1A1A;
+  --color-gray-12: #1F1F1F;
+  --color-gray-15: #262626;
+  --color-gray-20: #333333;
+  --color-gray-25: #404040;
+  --color-gray-30: #4C4C4C;
+  --color-gray-40: #666666;
+
+  --border: #{rem(1)} solid var(--color-gray-15);
+
+  --font-family-base: 'Sora', sans-serif;
+
+  --container-width: #{rem(1600)};
+  --container-padding-x: #{rem(16)};
+
+  --transition-duration: 0.2s;
+
+  @include laptop {
+    --container-width: #{rem(1280)};
+  }
+}
