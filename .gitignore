@@ -2,5 +2,5 @@
 node_modules/
 packages/
 *.log
-config.json
+*.json
 .config
